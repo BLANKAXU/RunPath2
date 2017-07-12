@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/lightGreen400</item>
+        <item name="colorPrimaryDark">@color/lightGreen300</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="MainAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/lightGreen400</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<style name="contextMenuAnim" parent="@android:style/Animation.Activity">
+    <item name="android:windowEnterAnimation">@anim/context_menu_enter</item>
+    <item name="android:windowExitAnimation">@anim/context_menu_exit</item>
+</style>
+    <!--<item name="colorPrimaryDark">@color/primary_dark_material_light</item>-->
+    <!--<item name="colorPrimary">@color/primary_material_light</item>-->
+    <!--<item name="colorAccent">@color/accent_material_light</item>-->
+</resources>
